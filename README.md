@@ -21,6 +21,8 @@ AutoTyper can be accessable in global variable and named as `autoTyper`. It expo
   typer.stop();
 ```
 
+Demo on Codepen : https://codepen.io/hsynlms/pen/gzapPz
+
 ## Available options
 Below options can be given to customize AutoTyper before start.
 
