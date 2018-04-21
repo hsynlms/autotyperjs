@@ -1,6 +1,6 @@
 /*
 * AutoTyper JS v1.0.0
-* A vanilla javascript plugin for animated typing.
+* A vanilla javascript plugin for animated typewriting.
 * Works with Chrome, Firefox, Safari, Internet Explorer and Edge
 *
 * Author:
