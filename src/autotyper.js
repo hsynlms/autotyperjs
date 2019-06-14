@@ -1,9 +1,3 @@
-/*!
-* autotyperjs v1.0.1
-* A vanilla javascript plugin for animated typewriting.
-*
-* Author: Huseyin Elmas
-*/
 (function(window, document) {
   // define the plugin in global variable to make it accessible from outside
   window.autoTyper = function(opts) {
