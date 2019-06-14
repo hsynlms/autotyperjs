@@ -1,0 +1,70 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: inherit;
+}
+
+body {
+	background-color: #4144b1;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.typer-target {
+	color: #ffffff;
+	font-size: 38px;
+  font-weight: bold;
+	line-height: normal;
+	margin: 0;
+	margin-bottom: 40px;
+	display: inline-block;
+}
+
+main {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.btn-run {
+	background-color: #3d90ef;
+	border: 0;
+	border-radius: 27.5px;
+	box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.05);
+	color: #ffffff;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 25px;
+	min-width: 150px;
+	outline: 0;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	cursor: pointer;
+}
+
+.btn-run:active {
+	box-shadow: inset 0 3px 5px 0px rgba(0, 0, 0, .1);
+}
+
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@-webkit-keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.typer-target {
+  animation: blink-caret 0.5s step-end infinite alternate;
+  border-right: 1px solid #fafafa;
+}
