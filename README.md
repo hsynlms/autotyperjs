@@ -3,7 +3,7 @@
 
 [![NPM](https://nodei.co/npm/autotyperjs.png)](https://nodei.co/npm/autotyperjs/)
 
-autotyperjs can be accessable in global variable as `autoTyper`. It exposes outside two functions, `start` and `stop`. Multiple instances can be created by using `new` keyword. It compatible with Chrome, Firefox, Safari, Internet Explorer and Edge.
+autotyperjs can be accessable in global variable as `autoTyper`. It exposes outside two functions, `start` and `stop`. Multiple instances can be created by using `new` keyword. Its compatible with Chrome, Firefox, Safari, Internet Explorer and Edge.
 
 - **start()** : starts AutoTyper on target element.
 ```javascript
