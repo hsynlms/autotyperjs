@@ -1,7 +1,9 @@
 # AutoTyper JS
-A vanilla javascript plugin for animated typewriting. AutoTyper JS works with Chrome, Firefox, Safari, Internet Explorer and Edge.
+> A vanilla javascript plugin for animated typewriting.
 
-AutoTyper can be accessable in global variable and named as `autoTyper`. It exposes outside two functions, `start` and `stop`. Multiple instances can be created by using `new` keyword.
+[![NPM](https://nodei.co/npm/autotyperjs.png)](https://nodei.co/npm/autotyperjs/)
+
+autotyperjs can be accessable in global variable as `autoTyper`. It exposes outside two functions, `start` and `stop`. Multiple instances can be created by using `new` keyword. It compatible with Chrome, Firefox, Safari, Internet Explorer and Edge.
 
 - **start()** : starts AutoTyper on target element.
 ```javascript
@@ -60,3 +62,6 @@ The CSS side will be like:
           animation: blink-caret 0.5s step-end infinite alternate;
 }
 ```
+
+# License
+This project is licensed under the terms of the [MIT license](https://github.com/hsynlms/autotyperjs/blob/master/LICENSE).
