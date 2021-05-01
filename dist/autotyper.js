@@ -1,5 +1,5 @@
 /*!
-* autotyperjs v1.0.1
+* autotyperjs v1.0.2
 * A vanilla javascript plugin for animated typewriting.
 *
 * Author: Huseyin Elmas
