@@ -41,15 +41,6 @@ gulp.task('build', gulp.series('clean', function () {
     )
     .pipe(gulp.dest(paths.dist))
     .pipe(uglify())
-    .pipe(
-      header(
-        tpl,
-        {
-          version: pkg.version,
-          author: pkg.author
-        }
-      )
-    )
     .pipe(rename({ suffix: '.min' }))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest(paths.dist))
