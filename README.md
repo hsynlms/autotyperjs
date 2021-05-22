@@ -1,26 +1,27 @@
 # AutoTyper JS
 > A vanilla javascript plugin for animated typewriting.
 
-[![NPM](https://nodei.co/npm/autotyperjs.png)](https://nodei.co/npm/autotyperjs/)
+[![Downloads](https://img.shields.io/npm/dm/autotyperjs.svg)](https://npmjs.com/autotyperjs)
+[![install size](https://packagephobia.com/badge?p=autotyperjs)](https://packagephobia.com/result?p=autotyperjs)
 
 autotyperjs can be accessable in global variable as `autoTyper`. It exposes outside two functions, `start` and `stop`. Multiple instances can be created by using `new` keyword. Its compatible with Chrome, Firefox, Safari, Internet Explorer and Edge.
 
 - **start()** : starts AutoTyper on target element.
 ```javascript
   var options = {
-    selector: ".content > h1",
-    words: ["hello", "world"]
-  };
+    selector: '.content > h1',
+    words: ['hello', 'world']
+  }
 
-  // start auto typer
-  var typer = new autoTyper(options);
-  typer.start();
+  // start autoTyper
+  var typer = new autoTyper(options)
+  typer.start()
 ```
 
 - **stop()** : stops AutoTyper.
 ```javascript
   // stop autoTyper
-  typer.stop();
+  typer.stop()
 ```
 
 Demo on Codepen : https://codepen.io/hsynlms/pen/gzapPz
@@ -31,13 +32,13 @@ Below options can be given to customize AutoTyper before start.
 ```javascript
   // available custom options
   var options = {
-    selector: ".typerTarget", // target element selector
+    selector: '.typerTarget', // target element selector
     words: [], // words/sentences that will be auto typed
     charSpeed: 85, // letter typing animation speed
     delay: 2100, // word/sentence typing animation delay
     loop: true, // if loop is activated, autoTyper will start over
     flipflop: true // if flipflop is activated, letters which are typed animated will be removed ony by one animated
-  };
+  }
 ```
 
 ## How about blinking caret?
@@ -62,6 +63,3 @@ The CSS side will be like:
           animation: blink-caret 0.5s step-end infinite alternate;
 }
 ```
-
-# License
-This project is licensed under the terms of the [MIT license](https://github.com/hsynlms/autotyperjs/blob/master/LICENSE).
