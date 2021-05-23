@@ -8,10 +8,10 @@ const pkg = require('./package.json')
 
 const tpl = `
 /*!
-* autotyperjs v<%= version %>
+* <%= name %> v<%= version %>
 * A vanilla javascript plugin for animated typewriting.
-*
-* Author: <%= author %>
+* <%= license %> License
+* by <%= author %>
 */
 `.trimStart()
 
@@ -37,13 +37,7 @@ gulp.task('build', gulp.series('clean', function () {
   return gulp.src(paths.srcFile)
     .pipe(sourcemaps.init())
     .pipe(
-      header(
-        tpl,
-        {
-          version: pkg.version,
-          author: pkg.author
-        }
-      )
+      header(tpl, pkg)
     )
     .pipe(gulp.dest(paths.dist))
     .pipe(uglify())
